@@ -327,3 +327,4 @@ nginx-service   NodePort    10.107.117.32   <none>        9898:31000/TCP   11s
 [国内环境使用Kubeadm部署Kubernetes](https://juejin.im/post/5b8a4536e51d4538c545645c)  
 [Quickstart for Calico on Kubernetes - Calico Doc](https://docs.projectcalico.org/v3.5/getting-started/kubernetes/)  
 [Creating a single master cluster with kubeadm - Kubernetes Doc](https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/)
+[Deployment - Kubernetes Doc](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
