@@ -27,16 +27,14 @@ curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/gpg | sudo apt-key
 
 ```bash
 add-apt-repository \
-    "deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu \
-    $(lsb_release -cs) \
-    stable"
+    "deb [arch=amd64] http://mirrors.aliyun.com/docker-ce/linux/ubuntu $(lsb_release -cs) stable"
 ```
 
 ### 安装docker
 
 ```bash
 apt-get update
-apt-get install docker
+apt-get install docker-ce
 ```
 
 ### 启动Docker
